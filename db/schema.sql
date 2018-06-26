@@ -2,11 +2,15 @@ DROP DATABASE IF EXISTS dem_burgersDB;
 CREATE DATABASE dem_burgersDB;
 USE dem_burgersDB;
 
+
+DROP TABLE IF EXISTS burgers;
+
 CREATE TABLE burgers
 (
 	id int NOT NULL AUTO_INCREMENT,
 	name VARCHAR(100) NOT NULL,
     eaten BOOLEAN DEFAULT 0,
+    createdAt TIMESTAMP NOT NULL,
 	PRIMARY KEY (id)
 );
 
