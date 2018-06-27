@@ -1,7 +1,10 @@
-<h1>Header1!</h1>
+<h1>Eat Dem Burgerz!</h1>
 
-<h2>Waiting!</h2>
+<img src="/assets/img/burger.png" alt="Dis Is Burger" />
 
+<div id="eatThese">
+<h2>Om Nom Nom Nom!</h2>
+<h4>You better eat these burgerz cause that's what you want!</h4>
 <ul>
   {{#each burgers}}
     {{#unless eaten}}
@@ -9,9 +12,11 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
-<h2>Eaten!</h2>
-
+<div id="makeThese">
+<h2>Gimme Moar!</h2>
+<h4>You better make more burgerz cause, you know you want to!</h4>
 <ul>
   {{#each burgers}}
     {{#if eaten}}
@@ -19,12 +24,13 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
-<h2>Add</h2>
+<h2>Add New Burger</h2>
 <form class="create-form">
 
   <div class="form-group">
-    <label for="ca">Label:</label>
+    <label for="ca">Burger:</label>
     <input type="text" id="ca" name="name">
   </div>
 

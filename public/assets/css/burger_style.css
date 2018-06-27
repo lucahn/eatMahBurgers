@@ -1,20 +1,56 @@
-li {
-    padding: 5px;
-    margin: 5px;
-    background: #faebd7;
-  }
+* {
+  text-align: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  padding: 0%;
+}
+
+ul#burgerList {
+  list-style-type:none;
+  list-style: none;
+}
+
+ul#burgerList li {
+  padding: 5px;
+  margin: 5px;
+  box-sizing: content-box;
+  background: #24221f;
+  color: aliceblue;
+  /* display: inline; */
+}
+
+#eatThese {
+  position: absolute;
+  left: 150px;
+}
+
+#makeThese {
+  position: absolute;
+  right: 150px;
+}
+
+.deBurger {
+  width: 220px;
+  height: 50px;
+}
   
-  .label {
-    font-weight: bold;
-  }
+.label {
+  font-weight: bold;
+}
   
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
   
-  .form-group {
-    margin-bottom: 5px;
-  }
+.form-group {
+  margin-bottom: 5px;
+}
   
